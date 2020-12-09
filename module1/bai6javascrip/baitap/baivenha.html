@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+a: <input type="text" name="number" id="soA">
+b: <input type="text" name="number" id="soB">
+<button onclick="cong()"> + </button>
+<script>
+    // a=parseInt(prompt("hãy nhập số thứ nhất"))
+    // b=parseInt(prompt("hãy nhập số thứ hai"))
+    // sum= a+b;
+    // alert ("tổng hai số: " + sum)
+    function cong() {
+        var a = document.getElementById("soA").value;
+        var b = document.getElementById("soB").value;
+        var c = parseInt(a) + parseInt(b);
+        alert(c);
+    }
+
+</script>
+</body>
+</html>
