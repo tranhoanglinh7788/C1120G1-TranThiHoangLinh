@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = parseFloat(prompt('điểm bài kiểm tra'));
+    let b = parseFloat(prompt('điểm bài kiểm tra giữa kỳ'));
+    let c = parseFloat(prompt('điểm bài kiểm tra cuối kỳ'));
+    a = a*0.1;
+    b = b*0.3;
+    c = c*0.6;
+    if ((a+b+c)<5){
+        alert("xếp loại C");
+    } else if ( (a+b+c>7)){
+        alert("xếp loại B");
+    } else {
+        alert("xếp loại A");
+    }
+
+
+</script>
+</body>
+</html>
